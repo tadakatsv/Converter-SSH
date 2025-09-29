@@ -25,7 +25,7 @@ public class Main {
         return miles * CONV_K;
     }
     private static double convKmToMiles(double miles) {
-        return miles * CONV_K;
+        return miles / CONV_K;
     }
     private static byte getUserChoice() {
         System.out.println("Same converter, but now through SSH");
